@@ -19,4 +19,32 @@ header{
     color: var(--text-color);
     text-decoration:none;
 }
+@media(min-width:500px){
+    .nav_logo_bar{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo{
+        max-width:50%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+    }
+    .header_nav_sticky{
+        display: flex;
+        flex-direction:column;
+        align-content: flex-end;
+    }
+}
+@media (min-width:650px) {
+    .header_nav_sticky{
+        display: flex;
+        flex-direction: row;
+        align-content: flex-end;
+        }
+        .nav_main{
+            padding: 15px;
+        }
 
+}

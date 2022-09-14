@@ -72,5 +72,11 @@ h2 {
         }
        
     }
-    
+    @media(min-width:800px){
+        .price_cards_collection {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+     }
 
