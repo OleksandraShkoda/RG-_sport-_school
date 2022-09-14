@@ -1,0 +1,26 @@
+:root{
+    --bg-color:#eee;
+    --text-color:black;
+    --button-bg-color:#f1c40f;
+    --cards-bg-color:#ddd;
+}
+
+*{
+    font-family: "Lato", sans-serif;
+}
+
+html{
+    background-color: var(--bg-color);
+}
+input{
+    width: 150px;
+}
+button{
+    background-color:var(--button-bg-color);
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin: 15px 0;
+    padding: 0 20px;
+}
