@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
     <title> Original Trombones </title>
 </head>
 
 <body>
     <header>
-        <img src="img/product-landing-page-logo.png" alt="trombone_logo">
+        <img src="img/product-landing-page-logo.png" alt="trombone_logo" class="logo">
         <nav class="header_nav_sticky">
             <a class="nav_main" href="#features">Features</a>
             <a class="nav_main" href="#how_it_works">How It Works</a>
@@ -23,72 +24,88 @@
     </header>
     <main>
         <section class="adv_first_form">
-        <h2>Handcrafted, home-made masterpieces</h2>
-        <form>
-            <input type="text" placeholder="Enter your email address">
-            <button type="submit">GET STARTED</button>
-        </form>
-    </section>
+            <h2>Handcrafted, home-made masterpieces</h2>
+            <form>
+                <input type="text" placeholder="Enter your email address">
+                <button type="submit">GET STARTED</button>
+            </form>
+        </section>
         <div id="features" class="features_cards_collection">
-            <section class="features_cards">
-                <h2>Premium Materials</h2>
-                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of
-                    your purchase.</p>
-            </section>
-            <section class="features_cards">
-                <h2>Fast Shipping</h2>
-                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free
-                    returns if you are not satisfied.</p>
-            </section>
-            <section class="features_cards">
-                <h2>Quality Assurance</h2>
-                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test
-                    the pitch of your instrument.</p>
-            </section>
-            <div id="#how_it_works">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+            <div class="section_and_img_wrap">
+                <img src="img/inner.jpg" alt="inner" class="feature_img">
+                <section class="features_cards">
+                    <h2>Premium Materials</h2>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity
+                        of
+                        your purchase.</p>
+                </section>
             </div>
-            <div class="price_cards_collection" id="pricing">
-                <div class="price_level_card">
-                    <h3>TENOR TROMBONE</h3>
-                    <h2>$600</h2>
-                    <p>Lorem ipsum.
-                        Lorem ipsum.
-                        Lorem ipsum dolor.
-                        Lorem ipsum.</p>
-                    <button type="submit">SELECT</button>
-                </div>
-                <div class="price_level_card">
-                    <h3>BASS TROMBONE</h3>
-                    <h2>$900</h2>
-                    <p>Lorem ipsum.
-                        Lorem ipsum.
-                        Lorem ipsum dolor.
-                        Lorem ipsum.</p>
-                    <button type="submit">SELECT</button>
-                </div>
-                <div class="price_level_card">
-                    <h3>VALVE TROMBONE</h3>
-                    <h2>$1200</h2>
-                    <p>Lorem ipsum.
-                        Lorem ipsum.
-                        Lorem ipsum dolor.
-                        Lorem ipsum.</p>
-                    <button type="submit">SELECT</button>
-                </div>
+            <div class="section_and_img_wrap">
+                <img src="img/mcdo.jpg" alt="mcdo" class="feature_img" >
+                <section class="features_cards">
+                    <h2>Fast Shipping</h2>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide
+                        free
+                        returns if you are not satisfied.</p>
+                </section>
+            </div>
+            <div class="section_and_img_wrap">
+                <img src="img/kfc.jpg" alt="kfc" class="feature_img">
+                <section class="features_cards">
+                    <h2>Quality Assurance</h2>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and
+                        test
+                        the pitch of your instrument.</p>
+                </section>
             </div>
         </div>
+
+        <div id="#how_it_works" class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="price_cards_collection" id="pricing">
+            <div class="price_level_card">
+                <h3 class="level">TENOR TROMBONE</h3>
+                <h2>$600</h2>
+                <p>Lorem ipsum.
+                    Lorem ipsum.
+                    Lorem ipsum dolor.
+                    Lorem ipsum.</p>
+                <button type="submit">SELECT</button>
+            </div>
+            <div class="price_level_card">
+                <h3 class="level">BASS TROMBONE</h3>
+                <h2>$900</h2>
+                <p>Lorem ipsum.
+                    Lorem ipsum.
+                    Lorem ipsum dolor.
+                    Lorem ipsum.</p>
+                <button type="submit">SELECT</button>
+            </div>
+            <div class="price_level_card">
+                <h3 class="level">VALVE TROMBONE</h3>
+                <h2>$1200</h2>
+                <p>Lorem ipsum.
+                    Lorem ipsum.
+                    Lorem ipsum dolor.
+                    Lorem ipsum.</p>
+                <button type="submit">SELECT</button>
+            </div>
+        </div>
+
     </main>
     <footer>
-        <nav class="footer_nav_panel">
-            <a class="footer_link" href="#">Privacy</a>
-            <a class="footer_link" href="#">Terms</a>
-            <a class="footer_link" href="#">Contact</a>
-        </nav>
-        <span>Copyright 2016, Original Trombones</span>
+        <div class="footer_info">
+            <nav class="footer_nav_panel">
+                <a class="footer_link" href="#">Privacy</a>
+                <a class="footer_link" href="#">Terms</a>
+                <a class="footer_link" href="#">Contact</a>
+            </nav>
+            <span>Copyright 2016, Original Trombones</span>
+        </div>
     </footer>
 </body>
 

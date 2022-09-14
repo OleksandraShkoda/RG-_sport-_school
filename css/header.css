@@ -4,7 +4,7 @@ header{
     align-content: center;
     
 }
-img {
+.logo {
     width: 100%;
     display: flex;
     align-content: center;
@@ -15,7 +15,7 @@ img {
     justify-content: center;
     margin: 5px auto;
 }
-.nav_main{
+.nav_main {
     color: var(--text-color);
     text-decoration:none;
 }
