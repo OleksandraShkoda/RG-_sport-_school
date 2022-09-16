@@ -56,6 +56,9 @@ h2 {
 }
 
 @media(min-width:550px) {
+    body{
+        margin-top:165px;
+    }
     .features_cards {
         display: flex;
         flex-direction: column;
@@ -82,6 +85,10 @@ h2 {
 }
 
 @media(min-width:800px) {
+    body{
+        margin-top:165px;
+    }
+    
     .price_cards_collection {
         display: flex;
         flex-direction: row;

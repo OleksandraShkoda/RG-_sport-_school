@@ -35,6 +35,14 @@ header {
 }
 
 @media(min-width:500px) {
+    /* header{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height:165px;
+} */
+
     .nav_logo_bar {
         display: flex;
         flex-direction: row;
@@ -42,7 +50,6 @@ header {
 
     .logo {
         max-width: 50%;
-        height: 50%;
         max-width: 100px;
         display: flex;
         flex-direction: row;
@@ -59,6 +66,20 @@ header {
 }
 
 @media (min-width:650px) {
+    header{
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        height:165px;
+    }
+.logo {
+    max-width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
     .header_nav_sticky {
         display: flex;
         flex-direction: row;
