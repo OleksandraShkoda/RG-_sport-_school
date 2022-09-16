@@ -1,27 +1,34 @@
-:root{
-    --bg-color:#eee;
-    --text-color:black;
-    --button-bg-color:#f1c40f;
-    --bg-header-color:#f1c40f8c;
-    --cards-bg-color:#ddd;
+:root {
+    --bg-color: #eee;
+    --text-color: black;
+    --button-bg-color: #f1c40f;
+    --bg-header-color: #f1c40f8c;
+    --cards-bg-color: #ddd;
 }
 
-*{
+* {
     font-family: "Lato", sans-serif;
 }
 
-html{
+html {
     background-color: var(--bg-color);
 }
-input{
+
+input {
     width: 150px;
 }
-button{
-    background-color:var(--button-bg-color);
+
+button {
+    background-color: var(--button-bg-color);
     font-weight: bold;
     width: 150px;
     height: 30px;
     border: none;
     margin: 15px 0;
     padding: 0 20px;
+}
+
+img {
+    display: block;
+    width: 100%;
 }
