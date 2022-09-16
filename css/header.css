@@ -2,12 +2,16 @@ header{
     display: flex;
     flex-direction: column;
     align-content: center;
-    
+    background-color: var(--bg-header-color);
+    border-radius: 25px;
 }
 .logo {
     width: 100%;
+    height: auto;
     display: flex;
     align-content: center;
+    border-radius: 50%;
+    border: 3px solid black;
 }
 .header_nav_sticky{
     display: flex;
@@ -18,6 +22,12 @@ header{
 .nav_main {
     color: var(--text-color);
     text-decoration:none;
+    text-align: center;
+}
+.nav_main:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 600;
 }
 @media(min-width:500px){
     .nav_logo_bar{
@@ -27,16 +37,19 @@ header{
     .logo{
         max-width:50%;
         height: 50%;
+         max-width: 100px;
         display: flex;
         flex-direction: row;
         align-content: flex-start;
     }
-    .header_nav_sticky{
+    .nav_logo_bar{
         display: flex;
         flex-direction:column;
-        align-content: flex-end;
+        align-content: center;
+        align-items: center;
+        
     }
-}
+    }
 @media (min-width:650px) {
     .header_nav_sticky{
         display: flex;

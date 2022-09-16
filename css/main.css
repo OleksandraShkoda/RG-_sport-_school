@@ -46,7 +46,7 @@ h2 {
     margin-bottom: 10px;
 }
 .level{
-    background-color: var(--cards-bg-color);
+    background-color: var(--bg-header-color);
     padding: 15px 0;
     margin: 0;
 }
@@ -62,6 +62,9 @@ h2 {
     .feature_img{
         display:block;
         margin: 15px;
+        max-width: 100px;
+        max-height: fit-content;
+        border: 2px  black;
     }
 
     .section_and_img_wrap{
